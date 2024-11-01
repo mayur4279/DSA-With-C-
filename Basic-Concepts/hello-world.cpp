@@ -1,7 +1,7 @@
 // It tells us include all the code file from iostream header file, 
-// which provide objects like ( cout, cin, endl ) to print data in terminal 
+// which provide objects like ( cout, cin, endl )   
 #include <iostream>   
-using namespace std;   // We don't want to use std::cout every time thsta why we are using this   
+using namespace std;   // We don't want to use std::cout every time thats why we are using this   
 // namespace is the collection of (variables, functions, classes, objects)
 // Single Line of code is a { statement } 
 // group of statement create { functions }
@@ -10,7 +10,7 @@ using namespace std;   // We don't want to use std::cout every time thsta why we
 
 
 // Every C++ Program Has its main function 
-// we are using int because we are returing 0 at the end for checking code is properly working or not
+// we are using int because we are returing 0 at the end for checking code is properly working or not { It also Indicates that program has finished successfully }
 // we are using  the cout object from  std namespace  
 // total 95 keyword in c++  (like int )      
 
@@ -43,6 +43,4 @@ int  main()  {                         // creating function  with name ( main )
 
 // Operator Overloading is the advance Topic to learn this video did'nt gave us the detailed info  
 
-
-
-
+//  ( :: )  This Is the Scope Resolution Operator { std::cout << "Hello world!" ; }  
